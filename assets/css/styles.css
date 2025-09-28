@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@300;400;700;900&family=Redressed&display=swap");
+
+.redressed {
+  font-family: "Redressed", cursive;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.set-navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Merriweather", serif;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+  z-index: 90;
+}
+.set-navbar .nav-link {
+  border-bottom: 1px solid transparent;
+  transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.set-navbar .nav-link:hover {
+  padding-bottom: 20px;
+  border-color: var(--bs-teal);
+}
+
+.btn-order {
+  color: var(--bs-teal);
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+}
+
+.banner,
+.order-form {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/banner.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+.order-form {
+  height: 400px;
+}
+.banner .banner-description {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.set-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/restaurant.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+.set-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img {
+  height: 500px;
+  width: 100%;
+  object-fit: scale-down;
+}
